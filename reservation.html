@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>About Us</title>
+	<title>Reservation</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->
@@ -185,215 +185,178 @@
 
 
 	<!-- Title Page -->
-	<section class="bg-title-page flex-c-m p-t-160 p-b-80 p-l-15 p-r-15" style="background-image: url(images/bg-title-page-03.jpg);">
+	<section class="bg-title-page flex-c-m p-t-160 p-b-80 p-l-15 p-r-15" style="background-image: url(images/bg-title-page-02.jpg);">
 		<h2 class="tit6 t-center">
-			About Us
+			Reservation
 		</h2>
 	</section>
 
 
-	<!-- Our Story -->
-	<section class="bg2-pattern p-t-116 p-b-110 t-center p-l-15 p-r-15">
-		<span class="tit2 t-center">
-			Italian Restaurant
-		</span>
-
-		<h3 class="tit3 t-center m-b-35 m-t-5">
-			Our Story
-		</h3>
-
-		<p class="t-center size32 m-l-r-auto">
-			Fusce at risus eget mi auctor pulvinar. Suspendisse maximus venenatis pretium. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam purus purus, lacinia a scelerisque in, luctus vel felis. Donec odio diam, dignissim a efficitur at, efficitur et est. Pellentesque semper est ut pulvinar ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla et leo accumsan, egestas velit ac, fringilla tortor. Sed varius justo sed luctus mattis.
-		</p>
-	</section>
-
-
-	<!-- Video -->
-	<section class="section-video parallax100" style="background-image: url(images/header-menu-01.jpg);">
-		<div class="content-video t-center p-t-225 p-b-250">
-			<span class="tit2 p-l-15 p-r-15">
-				Discover
-			</span>
-
-			<h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
-				Our Video
-			</h3>
-
-			<div class="btn-play ab-center size16 hov-pointer m-l-r-auto m-t-43 m-b-33" data-toggle="modal" data-target="#modal-video-01">
-				<div class="flex-c-m sizefull bo-cir bgwhite color1 hov1 trans-0-4">
-					<i class="fa fa-play fs-18 m-l-2" aria-hidden="true"></i>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-	<!-- Delicious & Romantic-->
-	<section class="bg1-pattern p-t-120 p-b-105">
+	<!-- Reservation -->
+	<section class="section-reservation bg1-pattern p-t-100 p-b-113">
 		<div class="container">
-			<!-- Delicious -->
 			<div class="row">
-				<div class="col-md-6 p-t-45 p-b-30">
-					<div class="wrap-text-delicious t-center">
+				<div class="col-lg-12 p-b-30">
+					<div class="t-center">
 						<span class="tit2 t-center">
-							Delicious
+							Reservation
 						</span>
 
-						<h3 class="tit3 t-center m-b-35 m-t-5">
-							RECIPES
+						<h3 class="tit3 t-center m-b-35 m-t-2">
+							Book table
 						</h3>
-
-						<p class="t-center m-b-22 size3 m-l-r-auto">
-							Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi, ac facilisis ligula sem id neque.
-						</p>
 					</div>
-				</div>
 
-				<div class="col-md-6 p-b-30">
-					<div class="wrap-pic-delicious size2 bo-rad-10 hov-img-zoom m-l-r-auto">
-						<img src="images/our-story-01.jpg" alt="IMG-OUR">
-					</div>
+					<form class="wrap-form-reservation size22 m-l-r-auto">
+						<div class="row">
+							<div class="col-md-4">
+								<!-- Date -->
+								<span class="txt9">
+									Date
+								</span>
+
+								<div class="wrap-inputdate pos-relative txt10 size12 bo2 bo-rad-10 m-t-3 m-b-23">
+									<input class="my-calendar bo-rad-10 sizefull txt10 p-l-20" type="text" name="date">
+									<i class="btn-calendar fa fa-calendar ab-r-m hov-pointer m-r-18" aria-hidden="true"></i>
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<!-- Time -->
+								<span class="txt9">
+									Time
+								</span>
+
+								<div class="wrap-inputtime size12 bo2 bo-rad-10 m-t-3 m-b-23">
+									<!-- Select2 -->
+									<select class="selection-1" name="time">
+										<option>9:00</option>
+										<option>9:30</option>
+										<option>10:00</option>
+										<option>10:30</option>
+										<option>11:00</option>
+										<option>11:30</option>
+										<option>12:00</option>
+										<option>12:30</option>
+										<option>13:00</option>
+										<option>13:30</option>
+										<option>14:00</option>
+										<option>14:30</option>
+										<option>15:00</option>
+										<option>15:30</option>
+										<option>16:00</option>
+										<option>16:30</option>
+										<option>17:00</option>
+										<option>17:30</option>
+										<option>18:00</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<!-- People -->
+								<span class="txt9">
+									People
+								</span>
+
+								<div class="wrap-inputpeople size12 bo2 bo-rad-10 m-t-3 m-b-23">
+									<!-- Select2 -->
+									<select class="selection-1" name="people">
+										<option>1 person</option>
+										<option>2 people</option>
+										<option>3 people</option>
+										<option>4 people</option>
+										<option>5 people</option>
+										<option>6 people</option>
+										<option>7 people</option>
+										<option>8 people</option>
+										<option>9 people</option>
+										<option>10 people</option>
+										<option>11 people</option>
+										<option>12 people</option>
+									</select>
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-4">
+								<!-- Name -->
+								<span class="txt9">
+									Name
+								</span>
+
+								<div class="wrap-inputname size12 bo2 bo-rad-10 m-t-3 m-b-23">
+									<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="name" placeholder="Name">
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<!-- Phone -->
+								<span class="txt9">
+									Phone
+								</span>
+
+								<div class="wrap-inputphone size12 bo2 bo-rad-10 m-t-3 m-b-23">
+									<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="phone" placeholder="Phone">
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<!-- Email -->
+								<span class="txt9">
+									Email
+								</span>
+
+								<div class="wrap-inputemail size12 bo2 bo-rad-10 m-t-3 m-b-23">
+									<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="email" placeholder="Email">
+								</div>
+							</div>
+
+						</div>
+
+						<div class="wrap-btn-booking flex-c-m m-t-6">
+							<!-- Button3 -->
+							<button type="submit" class="btn3 flex-c-m size13 txt11 trans-0-4">
+								Book Table
+							</button>
+						</div>
+					</form>
 				</div>
 			</div>
 
+			<div class="info-reservation flex-w p-t-80">
+				<div class="size23 w-full-md p-t-40 p-r-30 p-r-0-md">
+					<h4 class="txt5 m-b-18">
+						Reserve by Phone
+					</h4>
 
-			<!-- Romantic -->
-			<div class="row p-t-170">
-				<div class="col-md-6 p-b-30">
-					<div class="wrap-pic-romantic size2 bo-rad-10 hov-img-zoom m-l-r-auto">
-						<img src="images/our-story-02.jpg" alt="IMG-OUR">
-					</div>
+					<p class="size25">
+						Donec quis euismod purus. Donec feugiat ligula rhoncus, varius nisl sed, tincidunt lectus.
+						<span class="txt25">Nulla vulputate</span>
+						, lectus vel volutpat efficitur, orci
+						<span class="txt25">lacus sodales</span>
+						 sem, sit amet quam:
+						<span class="txt24">(001) 345 6889</span>
+					</p>
 				</div>
 
-				<div class="col-md-6 p-t-45 p-b-30">
-					<div class="wrap-text-romantic t-center">
-						<span class="tit2 t-center">
-							Romantic
-						</span>
+				<div class="size24 w-full-md p-t-40">
+					<h4 class="txt5 m-b-18">
+						For Event Booking
+					</h4>
 
-						<h3 class="tit3 t-center m-b-35 m-t-5">
-							Restaurant
-						</h3>
-
-						<p class="t-center m-b-22 size3 m-l-r-auto">
-							Fusce iaculis, quam quis volutpat cursus, tellus quam varius eros, in euismod lorem nisl in ante. Maecenas imperdiet vulputate dui sit amet vestibulum. Nulla quis suscipit nisl.
-						</p>
-					</div>
+					<p class="size26">
+						Donec feugiat ligula rhoncus:
+						<span class="txt24">(001) 345 6889</span>
+						, varius nisl sed, tinci-dunt lectus sodales sem.
+					</p>
 				</div>
+
 			</div>
 		</div>
 	</section>
 
-
-	<!-- Banner -->
-	<div class="parallax0 parallax100" style="background-image: url(images/bg-cover-video-02.jpg);">
-		<div class="overlay0-parallax t-center size33"></div>
-	</div>
-
-
-	<!-- Chef -->
-	<section class="section-chef bgwhite p-t-115 p-b-95">
-		<div class="container t-center">
-			<span class="tit2 t-center">
-				Meet Our
-			</span>
-
-			<h3 class="tit5 t-center m-b-50 m-t-5">
-				Chef
-			</h3>
-
-			<div class="row">
-				<div class="col-md-8 col-lg-4 m-l-r-auto p-b-30">
-					<!-- -Block5 -->
-					<div class="blo5 pos-relative p-t-60">
-						<div class="pic-blo5 size14 bo4 wrap-cir-pic hov-img-zoom ab-c-t">
-							<a href="#"><img src="images/avatar-02.jpg" alt="IGM-AVATAR"></a>
-						</div>
-
-						<div class="text-blo5 size34 t-center bo-rad-10 bo7 p-t-90 p-l-35 p-r-35 p-b-30">
-							<a href="#" class="txt34 dis-block p-b-6">
-								Peter Hart
-							</a>
-
-							<span class="dis-block t-center txt35 p-b-25">
-								Chef
-							</span>
-
-							<p class="t-center">
-								Donec porta eleifend mauris ut effici-tur. Quisque non velit vestibulum, lob-ortis mi eget, rhoncus nunc
-							</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-8 col-lg-4 m-l-r-auto p-b-30">
-					<!-- -Block5 -->
-					<div class="blo5 pos-relative p-t-60">
-						<div class="pic-blo5 size14 bo4 wrap-cir-pic hov-img-zoom ab-c-t">
-							<a href="#"><img src="images/avatar-03.jpg" alt="IGM-AVATAR"></a>
-						</div>
-
-						<div class="text-blo5 size34 t-center bo-rad-10 bo7 p-t-90 p-l-35 p-r-35 p-b-30">
-							<a href="#" class="txt34 dis-block p-b-6">
-								Joyce Bowman
-							</a>
-
-							<span class="dis-block t-center txt35 p-b-25">
-								Chef
-							</span>
-
-							<p class="t-center">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ultricies felis a sem tempus tempus.
-							</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-8 col-lg-4 m-l-r-auto p-b-30">
-					<!-- -Block5 -->
-					<div class="blo5 pos-relative p-t-60">
-						<div class="pic-blo5 size14 bo4 wrap-cir-pic hov-img-zoom ab-c-t">
-							<a href="#"><img src="images/avatar-05.jpg" alt="IGM-AVATAR"></a>
-						</div>
-
-						<div class="text-blo5 size34 t-center bo-rad-10 bo7 p-t-90 p-l-35 p-r-35 p-b-30">
-							<a href="#" class="txt34 dis-block p-b-6">
-								Peter Hart
-							</a>
-
-							<span class="dis-block t-center txt35 p-b-25">
-								Chef
-							</span>
-
-							<p class="t-center">
-								Phasellus aliquam libero a nisi varius, vitae placerat sem aliquet. Ut at velit nec ipsum iaculis posuere quis in sapien
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-	<!-- Sign up -->
-	<div class="section-signup bg1-pattern p-t-85 p-b-85">
-		<form class="flex-c-m flex-w flex-col-c-m-lg p-l-5 p-r-5">
-			<span class="txt5 m-10">
-				Specials Sign up
-			</span>
-
-			<div class="wrap-input-signup size17 bo2 bo-rad-10 bgwhite pos-relative txt10 m-10">
-				<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="email-address" placeholder="Email Adrress">
-				<i class="fa fa-envelope ab-r-m m-r-18" aria-hidden="true"></i>
-			</div>
-
-			<!-- Button3 -->
-			<button type="submit" class="btn3 flex-c-m size18 txt11 trans-0-4 m-10">
-				Sign-up
-			</button>
-		</form>
-	</div>
 
 	<!-- Footer -->
 	<footer class="bg1">
@@ -571,20 +534,10 @@
 		</span>
 	</div>
 
-	<!-- Modal Video 01-->
-	<div class="modal fade" id="modal-video-01" tabindex="-1" role="dialog" aria-hidden="true">
+	<!-- Container Selection1 -->
+	<div id="dropDownSelect1"></div>
 
-		<div class="modal-dialog" role="document" data-dismiss="modal">
-			<div class="close-mo-video-01 trans-0-4" data-dismiss="modal" aria-label="Close">&times;</div>
 
-			<div class="wrap-video-mo-01">
-				<div class="w-full wrap-pic-w op-0-0"><img src="images/icons/video-16-9.jpg" alt="IMG"></div>
-				<div class="video-mo-01">
-					<iframe src="https://www.youtube.com/embed/5k1hSu2gdKE?rel=0&amp;showinfo=0" allowfullscreen></iframe>
-				</div>
-			</div>
-		</div>
-	</div>
 
 <!--===============================================================================================-->
 	<script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
@@ -610,8 +563,6 @@
 	<script type="text/javascript" src="vendor/countdowntime/countdowntime.js"></script>
 <!--===============================================================================================-->
 	<script type="text/javascript" src="vendor/lightbox2/js/lightbox.min.js"></script>
-<!--===============================================================================================-->
-	<script type="text/javascript" src="vendor/isotope/isotope.pkgd.min.js"></script>
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
 
