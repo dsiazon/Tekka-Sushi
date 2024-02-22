@@ -796,7 +796,64 @@ input[type="date" i] {
   }
 }
 
+/*[ category ]
+-----------------------------------------------------------
+*/
+.wrap_menu {
+  height: 1%;
+}
 
+.menu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.category_menu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scroll-behavior: smooth;;
+}
+
+.category_menu li {
+  display: block;
+  position: relative;
+}
+
+.category_menu > li {
+  padding-top: 10px;  
+  padding-bottom: 10px; 
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.category_menu > li > a {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: black;
+  padding: 15px;
+}
+
+.header-fixed .category_menu > li > a {
+  color: #222222;
+}
+
+.category_menu > li:hover > a {
+  color: #ec1d25;
+  text-decoration: none;
+}
 
 /*[ Slide1 ]
 ///////////////////////////////////////////////////////////
