@@ -1684,3 +1684,10 @@ body {padding-right: 0px !important;}
   border-radius: 10px;
   background-color: #ec1d25;
 }
+
+.box {
+  width: auto;
+  border: 2px solid rgb(59, 59, 59);
+  padding: 15px;
+  margin: 15px;
+}
