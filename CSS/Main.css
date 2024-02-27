@@ -1657,7 +1657,7 @@ body {padding-right: 0px !important;}
   background-color: #ec1d25;
 }
 
-<<<<<<< HEAD
+
 /*popup*/
 
 
@@ -1735,4 +1735,13 @@ body {padding-right: 0px !important;}
   outline: 3px dashed rgb(180, 56, 56);
   outline-offset: -15px;
   text-align: center;
+}
+
+
+.box {
+  width: auto;
+  border: 2px solid rgb(59, 59, 59);
+  padding: 15px;
+  margin: 15px;
+
 }
