@@ -102,7 +102,7 @@ body, html {
 	height: 100%;
 	font-family: Montserrat, sans-serif;
   font-weight: 400;
-  overflow-x: hidden;
+
 }
 
 /* ------------------------------------ */
@@ -1657,7 +1657,10 @@ body {padding-right: 0px !important;}
   background-color: #ec1d25;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ff5d58425ed3efc75e8f119b43b3d973bd246255
 /*popup*/
 
 
@@ -1736,8 +1739,11 @@ body {padding-right: 0px !important;}
   outline-offset: -15px;
   text-align: center;
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> ff5d58425ed3efc75e8f119b43b3d973bd246255
 .box {
   width: auto;
   border: 2px solid rgb(59, 59, 59);
