@@ -313,6 +313,21 @@ iframe {
 }
 
 
+/* IMAGES */
+
+.img-gap {
+  background-image: url('../img/interior/dining1.jpg');
+  /* Add any other default styles for the .header-intro class */
+}
+
+@media only screen and (max-width: 767px) {
+  .img-gap {
+      background-size: cover; /* Adjust to cover the entire container */
+      background-position: center; /* Center the background image */
+      /* Add any other styles for smaller screens */
+  }
+}
+
 /*[ Calendar ]
 ///////////////////////////////////////////////////////////
 */
