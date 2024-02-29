@@ -315,10 +315,6 @@ iframe {
 
 /* IMAGES */
 
-.img-gap {
-  background-image: url('../img/interior/dining2.jpg');
-  /* Add any other default styles for the .header-intro class */
-}
 
 @media only screen and (max-width: 767px) {
   .img-gap {
