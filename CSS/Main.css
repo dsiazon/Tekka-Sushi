@@ -312,6 +312,17 @@ iframe {
 }
 
 
+/* IMAGES */
+
+
+@media only screen and (max-width: 767px) {
+  .img-gap {
+      background-size: cover; /* Adjust to cover the entire container */
+      background-position: center; /* Center the background image */
+      /* Add any other styles for smaller screens */
+  }
+}
+
 /*[ Calendar ]
 ///////////////////////////////////////////////////////////
 */
@@ -714,7 +725,7 @@ input[type="date" i] {
   .social {padding-right: 0px;}
 
   .logo {
-    height: 45px;
+    height: 35px;
   }
 }
 
